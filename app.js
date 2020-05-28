@@ -28,7 +28,7 @@ inquirer
     {
         type: 'input',
         message: 'WHat is your work ID?',
-        name: 'workID'
+        name: 'id'
 
     }, {
         type: 'input',
