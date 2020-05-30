@@ -14,17 +14,17 @@ This project involves generating software engineering team profiles using Node C
 ## Installation
 Before installing this project, Node.js must be installed to run CLI.
 
-Install the project using the following command: 
+Install the dependencies using the following command: 
 ```javascript
 
 npm i 
 
 ```
-Dependencies included are `jest` and `inquirer`.
+Dependencies included are `jest` and `inquirer` to test run and prompt the user respectively.
 
 ## Usage
 
-Once installed, run ```node app.js``` through the terminal to run the project and input the answers accordingly:
+Once installed, run ```node app.js``` through the terminal to run the project and the terminal will display a series of questions:
 
 
 
@@ -43,7 +43,7 @@ npm run test
 
 ```
 
-`jest` will run tests in the application to ensure class syntax and constructor functions are working and so that the application will generate the html files accordingly.
+`jest` will run tests in the application to ensure class syntax and constructor functions are working and so that the application will generate the html files accordingly. 
 
 ![Running Test in app.js](Assets/images/passingTests.jpg)
 
