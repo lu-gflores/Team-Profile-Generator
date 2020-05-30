@@ -135,13 +135,11 @@ const addMoreMembers = () => {
 
 const renderHTML = () => {
    const teamPage = render(teamArray);
-
    fs.writeFile(outputPath, teamPage, function(err) {
        if(err) throw err;
        console.log('team page generated!')
    });
 }
-
 
 // After you have your html, you're now ready to create an HTML file using the HTML
 // returned from the `render` function. Now write it to a file named `team.html` in the
